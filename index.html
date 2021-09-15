@@ -26,7 +26,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -59,6 +59,9 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -130,7 +133,7 @@
           <img src="img/johan.png" alt="" class="about__img">
 
           <div class="about__data">
-            <p class="about__discription">
+            <p class="about__description">
               wecode에서 개발자로서의 첫 발걸음을 뗀 새내기 프론트엔드 개발자 입니다. 고민하고, 행동하는 개발자가 되고 싶습니다.
             </p>
             <div class="about__info">
@@ -828,7 +831,9 @@
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="swiper-bundle.min.js"></script>
