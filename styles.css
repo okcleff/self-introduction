@@ -910,7 +910,7 @@ img {
 
   .contact-flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .footer__container {
